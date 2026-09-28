@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>     
+    <div class="form">     
         <!-- Логин -->
-        <p>
+        <p class="input_line">
             <label for="login">Логин:</label><br>
             <input type="text" id="login" name="login" required>
         </p>
 
         <!-- Пароль -->
-        <p>
+        <p class="input_line">
             <label for="password">Пароль:</label><br>
             <input type="password" id="password" name="password" minlength="6" required>
         </p>
 
         <!-- Кнопка авторизации -->
-        <p>
+        <p class="button">
             <button onclick="authorization()">Зарегистрироваться</button>
         </p>
     </div>
